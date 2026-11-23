@@ -1,0 +1,232 @@
+---
+name: Studio Pulse
+colors:
+  surface: '#f8f9ff'
+  surface-dim: '#cbdbf5'
+  surface-bright: '#f8f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#eff4ff'
+  surface-container: '#e5eeff'
+  surface-container-high: '#dce9ff'
+  surface-container-highest: '#d3e4fe'
+  on-surface: '#0b1c30'
+  on-surface-variant: '#464554'
+  inverse-surface: '#213145'
+  inverse-on-surface: '#eaf1ff'
+  outline: '#767586'
+  outline-variant: '#c7c4d7'
+  surface-tint: '#494bd6'
+  primary: '#4648d4'
+  on-primary: '#ffffff'
+  primary-container: '#6063ee'
+  on-primary-container: '#fffbff'
+  inverse-primary: '#c0c1ff'
+  secondary: '#00687a'
+  on-secondary: '#ffffff'
+  secondary-container: '#57dffe'
+  on-secondary-container: '#006172'
+  tertiary: '#b10e6b'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#d23284'
+  on-tertiary-container: '#fffbff'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#e1e0ff'
+  primary-fixed-dim: '#c0c1ff'
+  on-primary-fixed: '#07006c'
+  on-primary-fixed-variant: '#2f2ebe'
+  secondary-fixed: '#acedff'
+  secondary-fixed-dim: '#4cd7f6'
+  on-secondary-fixed: '#001f26'
+  on-secondary-fixed-variant: '#004e5c'
+  tertiary-fixed: '#ffd9e4'
+  tertiary-fixed-dim: '#ffb0cd'
+  on-tertiary-fixed: '#3e0022'
+  on-tertiary-fixed-variant: '#8c0053'
+  background: '#f8f9ff'
+  on-background: '#0b1c30'
+  surface-variant: '#d3e4fe'
+typography:
+  display-lg:
+    fontFamily: Outfit
+    fontSize: 40px
+    fontWeight: '700'
+    lineHeight: 48px
+    letterSpacing: -0.03em
+  display-lg-mobile:
+    fontFamily: Outfit
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 38px
+    letterSpacing: -0.025em
+  headline-lg:
+    fontFamily: Outfit
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 34px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Outfit
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Outfit
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.01em
+  title-md:
+    fontFamily: Manrope
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 22px
+    letterSpacing: -0.005em
+  body-lg:
+    fontFamily: Manrope
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: 0em
+  body-md:
+    fontFamily: Manrope
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Manrope
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+    letterSpacing: 0.01em
+  metric-display:
+    fontFamily: Outfit
+    fontSize: 30px
+    fontWeight: '700'
+    lineHeight: 34px
+    letterSpacing: -0.02em
+  label-lg:
+    fontFamily: Manrope
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 18px
+    letterSpacing: 0.01em
+  label-sm:
+    fontFamily: Manrope
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.5rem
+  DEFAULT: 1rem
+  md: 1.5rem
+  lg: 2rem
+  xl: 3rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-sm: 0.75rem
+  margin: 1rem
+  margin-md: 1.5rem
+  margin-lg: 2rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 0.75rem
+  space-lg: 1rem
+  space-xl: 1.5rem
+  space-2xl: 2rem
+---
+
+## Brand & Style
+The design system articulates an elevated creator-studio ecosystem tailored for high-output social media strategists, brands, and operators. Merging structural geometric precision with luminous digital energy, the visual language balances effortless executive efficiency with vibrant creator momentum.
+
+The design movement combines **Contemporary Minimalism** with **Sculptural Tactility**:
+- Crisp, clinical light surfaces grounded in pale zinc and cool atmospheric whites.
+- Vibrant, high-chroma electric indigo driving focus, accented by channel-tuned chromatic sparks (cyan and magenta).
+- Pilliform containment and sculpted radii that soften functional data density into an approachable, high-touch luxury workflow.
+- High-legibility typographic tension between dynamic geometric display headings and balanced, ergonomic body metrics.
+
+## Colors
+The palette leverages a crisp, luminous foundation with focused chromatic energy to demarcate multi-channel performance and contextual status:
+
+- **Primary (`#6366F1`)**: Electric Indigo. Serves as the primary operational anchor, designated for high-intent actions, key activation states, active navigation indicators, and primary visual focal points.
+- **Secondary (`#06B6D4`)**: Electric Cyan. Applied to dynamic delivery metrics, incoming velocity charts, secondary content tagging, and rapid feed diagnostics.
+- **Tertiary (`#EC4899`)**: Electric Rose. Deployed for high-engagement metrics, audience expansion triggers, alert badges, and campaign conversion indicators.
+- **Neutral (`#64748B`)**: Slate Neutral. Orchestrates functional UI architecture. The scale spans from pure white `#FFFFFF` through canvas foundations (`#F8FAFC`, `#F1F5F9`) up to deep charcoal slate (`#0F172A`) for high-contrast typographic rendering.
+
+### Functional Roles & Contrast
+- **Canvas Base**: `#F8FAFC` provides cool ambient separation from card surfaces.
+- **Surface Elevation**: Pure `#FFFFFF` preserves structural distinction across elevated panels.
+- **Borders & Dividers**: Low-contrast hairpins (`#E2E8F0` at 1px) ensure clean grid alignment without visual weight.
+- **Platform Accents**: Dedicated semantic tokens map directly to platform channel identities while preserving core luminance.
+
+## Typography
+The typographic architecture pairs the sculptural, geometric flair of **Outfit** for headlines and impact analytics with the neutral, hyper-legible ergonomics of **Manrope** for analytical dashboards and operational text.
+
+- **Display & Headlines (`Outfit`)**: Tight tracking, strong geometric presence, and proportional balance establish clarity across dense dashboards and feed management cards.
+- **Metrics (`Outfit 700`)**: Key social metrics (reach, impressions, growth velocity) utilize numeric weights optimized for immediate visual scanning.
+- **Body & Controls (`Manrope`)**: Optimized vertical metrics and balanced apertures ensure comfortable reading of complex copy schedules, message threads, and configuration panels.
+- **Labels (`Manrope 600/700`)**: Compact, slightly tracked labels provide crisp taxonomy for platform identifiers, filters, and status badges.
+
+## Layout & Spacing
+The layout relies on a mobile-first fluid grid structured around an **8pt spatial rhythm** (with 4pt micro-steps for tight badge and metric pairings).
+
+- **Mobile Viewport (360px – 480px)**: 4-column layout, `1rem` outer screen margin, and `0.75rem` gutters. Maximum vertical density to keep composition targets and quick-schedule inputs within thumb reach.
+- **Tablet / Expanded Viewport (481px – 840px)**: 8-column layout, `1.5rem` outer margins, `1rem` gutters. Metric streams reflow from single-column vertical ribbons to a 2x2 multi-card layout.
+- **Desktop / Studio Viewport (841px+)**: 12-column layout maxing out at `1280px` centered canvas, `2rem` margins, enabling an anchor sidebar, unified multi-stream feed, and real-time inspector rail.
+
+Content maintains clear vertical spacing: cards feature `space-lg` internal padding, while compact badge clusters use `space-xs` and `space-sm` offsets.
+
+## Elevation & Depth
+Elevation is expressed through **tinted atmospheric luminosity** paired with delicate, high-precision surface borders rather than heavy opacity drop-shadows.
+
+- **Level 0 (Canvas Base)**: `#F8FAFC`, non-elevated flat plane for app backgrounds and inactive tab bars.
+- **Level 1 (Card & Module Layer)**: Pure `#FFFFFF` surface accompanied by a subtle tinted shadow: `0 2px 8px -2px rgba(99, 102, 241, 0.04), 0 1px 3px rgba(15, 23, 42, 0.05)` and a 1px border of `#E2E8F0`.
+- **Level 2 (Dropdowns, Active Tabs & Modals)**: `#FFFFFF` with `0 12px 24px -6px rgba(15, 23, 42, 0.08), 0 4px 8px -2px rgba(99, 102, 241, 0.06)`, framed by a 1px border of `#CBD5E1`.
+- **Level 3 (Floating Command Surfaces & Toasts)**: High-blur translucent or solid white pilliform panels (`backdrop-filter: blur(12px)`) with `0 20px 32px -8px rgba(15, 23, 42, 0.12)`.
+
+## Shapes
+The design system embraces a **Pilliform Geometric** shape vocabulary:
+- **Base Components**: Inputs, pill badges, channel tags, primary triggers, and floating selectors utilize `9999px` full-radius contours (`rounded-full` / pill-shaped).
+- **Enclosures & Cards**: Dashboard metric containers, post previews, and dialog surfaces adopt a softened `rounded-lg` (2rem) or `rounded-xl` (3rem) boundary, establishing visual continuity with the curved pill badges.
+- **Media Thumbnails**: Visual assets and avatar clusters balance the pill aesthetic with proportional `1rem` soft rounding to maintain image crop integrity.
+
+## Components
+
+### Buttons
+- **Primary**: Full pill contour (`rounded-full`), solid `#6366F1` background, `#FFFFFF` text (`label-lg`), subtle interactive shadow `0 4px 12px rgba(99, 102, 241, 0.28)`. Height: 44px mobile, 48px desktop.
+- **Secondary**: Pill contour, 1.5px border of `#6366F1`, transparent background, `#6366F1` text. 
+- **Ghost / Tertiary**: Pill contour, transparent fill, `#64748B` text, shifting to `#0F172A` with `#F1F5F9` background fill on press/hover.
+
+### Platform Badges & Chips
+- **Geometry**: Continuous pill shape with 6px vertical padding, 12px horizontal padding.
+- **Variants**:
+  - *Instagram*: Subtle magenta wash (`#FDF2F8`), `#EC4899` text and icon dot.
+  - *TikTok / Cyan Channel*: Subtle cyan wash (`#ECFEFF`), `#0891B2` text.
+  - *X / Platform Generic*: Subtle slate wash (`#F1F5F9`), `#334155` text.
+  - *LinkedIn / High Focus*: Subtle indigo wash (`#EEF2FF`), `#4F46E5` text.
+- **Filter Chips**: Interactive toggle pills; selected states switch to solid neutral `#0F172A` with `#FFFFFF` text.
+
+### Metric Cards
+- Surface: `#FFFFFF`, `rounded-lg` (2rem), 1px border `#E2E8F0`, interior padding `space-lg`.
+- Top row: Contextual platform chip paired with time-window selector.
+- Center: Typographic metric (`Outfit 700`, 30px) in `#0F172A`.
+- Delta: Trend indicator pill (`+18.4%`) with muted green or electric secondary background.
+
+### Input Fields
+- Enclosed within a full pill silhouette (`rounded-full`), height 48px, background `#FFFFFF`, border 1px `#CBD5E1`.
+- Interior padding `1rem 1.25rem`. Placeholder text in `#94A3B8`. Active focus triggers a 2px `#6366F1` outline ring with `rgba(99, 102, 241, 0.12)` halo.
+
+### Selection Controls (Checkboxes & Radios)
+- **Checkboxes**: 20px box with `0.5rem` rounded corners. Checked state: `#6366F1` fill with sharp white check vector.
+- **Radios**: 20px full circle, checked state shows a centered 8px `#6366F1` solid pip inside a `#FFFFFF` core bordered by `#6366F1`.
+
+### Bottom Navigation & Tab Bars
+- Floating pill dock suspended `1rem` above viewport base.
+- Frosted translucent finish (`rgba(255, 255, 255, 0.88)` with `backdrop-filter: blur(16px)`).
+- Active item marked by a solid electric indigo micro-pill indicator and primary icon tint. Inactive icons remain in `#64748B`.

@@ -1,0 +1,6 @@
+{
+  "name": "Studio Pulse",
+  "description": "Elevated creator-studio ecosystem for social media strategists featuring cross-channel analytics, content scheduling, and unified inbox workflows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

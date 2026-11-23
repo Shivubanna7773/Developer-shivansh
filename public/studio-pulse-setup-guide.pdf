@@ -1,0 +1,1258 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612. 792.]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 7230
+>>
+stream
+0.200025 w
+0 G
+0.27 0.28 0.83 rg
+62. 744. m
+550. 744. l
+557.7319864976310555 744. 564. 737.7319864976311692 564. 730. c
+564. 662. l
+564. 654.2680135023688308 556.2680135023689445 648. 550. 648. c
+62. 648. l
+54.2680135023688877 648. 48. 655.7319864976311692 48. 662. c
+48. 730. l
+48. 737.7319864976311692 55.7319864976311123 744. 62. 744. c
+h
+f
+BT
+/F2 10 Tf
+11.5 TL
+0.882 0.878 1. rg
+70. 716. Td
+(STUDIO PULSE  ·  TECHNICAL & OPERATOR SETUP GUIDE) Tj
+ET
+BT
+/F2 22 Tf
+25.2999999999999972 TL
+1. g
+70. 690. Td
+(Studio Pulse Setup & Operations Manual) Tj
+ET
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.922 0.933 1. rg
+70. 668. Td
+(Full-stack React, Express, WebSocket Live Audio & Gemini Strategy Workspace) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.275 0.282 0.831 rg
+48. 618. Td
+(01. ARCHITECTURE) Tj
+ET
+BT
+/F2 15 Tf
+17.25 TL
+0.043 0.11 0.188 rg
+48. 602. Td
+(System Overview & Requirements) Tj
+ET
+0.89 0.91 0.94 RG
+0.75 w
+48. 594. m
+564. 594. l
+S
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.275 0.271 0.329 rg
+48. 578. Td
+(Studio Pulse combines a Vite + React 19 single-page workspace with a unified Express and WebSocket server) Tj
+T* (\(server.ts\) running on port 3000. All Gemini API requests and Live API audio streams run exclusively on the) Tj
+T* (server so your API key remains protected in environment secrets.) Tj
+ET
+0.27 0.28 0.83 rg
+54. 528. m
+54. 529.1045694996615794 53.1045694996615865 530. 52. 530. c
+50.8954305003384135 530. 50. 529.1045694996615794 50. 528. c
+50. 526.8954305003384206 50.8954305003384135 526. 52. 526. c
+53.1045694996615865 526. 54. 526.8954305003384206 54. 528. c
+f
+BT
+/F2 10 Tf
+11.5 TL
+0.043 0.11 0.188 rg
+62. 524.5 Td
+(Node.js Runtime: ) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.275 0.271 0.329 rg
+146.8000000000000114 524.5 Td
+(Node.js v20+ \(v22 recommended\) with npm installed.) Tj
+ET
+0.27 0.28 0.83 rg
+54. 510. m
+54. 511.1045694996615794 53.1045694996615865 512. 52. 512. c
+50.8954305003384135 512. 50. 511.1045694996615794 50. 510. c
+50. 508.8954305003384206 50.8954305003384135 508. 52. 508. c
+53.1045694996615865 508. 54. 508.8954305003384206 54. 510. c
+f
+BT
+/F2 10 Tf
+11.5 TL
+0.043 0.11 0.188 rg
+62. 506.5 Td
+(Frontend Stack: ) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.275 0.271 0.329 rg
+140.5 506.5 Td
+(React 19, TypeScript, Tailwind CSS v4, Lucide icons, and jsPDF.) Tj
+ET
+0.27 0.28 0.83 rg
+54. 492. m
+54. 493.1045694996615794 53.1045694996615865 494. 52. 494. c
+50.8954305003384135 494. 50. 493.1045694996615794 50. 492. c
+50. 490.8954305003384206 50.8954305003384135 490. 52. 490. c
+53.1045694996615865 490. 54. 490.8954305003384206 54. 492. c
+f
+BT
+/F2 10 Tf
+11.5 TL
+0.043 0.11 0.188 rg
+62. 488.5 Td
+(Backend Stack: ) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.275 0.271 0.329 rg
+138.6999999999999886 488.5 Td
+(Express 4, tsx, ws \(WebSocket bridge\), and @google/genai \(^3.6.1\).) Tj
+ET
+0.27 0.28 0.83 rg
+54. 474. m
+54. 475.1045694996615794 53.1045694996615865 476. 52. 476. c
+50.8954305003384135 476. 50. 475.1045694996615794 50. 474. c
+50. 472.8954305003384206 50.8954305003384135 472. 52. 472. c
+53.1045694996615865 472. 54. 472.8954305003384206 54. 474. c
+f
+BT
+/F2 10 Tf
+11.5 TL
+0.043 0.11 0.188 rg
+62. 470.5 Td
+(Client Persistence: ) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.275 0.271 0.329 rg
+154.3000000000000114 470.5 Td
+(Scheduled posts, inbox threads, preferences, and chat history persist in localStorage.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.275 0.282 0.831 rg
+48. 444.5 Td
+(02. LOCAL INSTALLATION) Tj
+ET
+BT
+/F2 15 Tf
+17.25 TL
+0.043 0.11 0.188 rg
+48. 428.5 Td
+(Installing Dependencies & Running Locally) Tj
+ET
+0.89 0.91 0.94 RG
+0.75 w
+48. 420.5 m
+564. 420.5 l
+S
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.275 0.271 0.329 rg
+48. 404.5 Td
+(Clone or open the project directory, install all npm dependencies, and launch the unified development server.) Tj
+T* (Express mounts Vite middleware automatically when NODE_ENV is not production.) Tj
+ET
+0.94 0.96 1. rg
+0.89 0.91 0.94 RG
+0.75 w
+56. 365.5 m
+556. 365.5 l
+560.4182779986463174 365.5 564. 361.9182779986463743 564. 357.5 c
+564. 241.5 l
+564. 237.0817220013536826 559.5817220013536826 233.5 556. 233.5 c
+56. 233.5 l
+51.5817220013536542 233.5 48. 237.9182779986463174 48. 241.5 c
+48. 357.5 l
+48. 361.9182779986463743 52.4182779986463458 365.5 56. 365.5 c
+h
+B
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+62. 344.5 Td
+(# 1. Install runtime and development dependencies) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+62. 331. Td
+(npm install) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+62. 304. Td
+(# 2. Configure environment variables \(see Section 03\)) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+62. 290.5 Td
+(cp .env.example .env) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+62. 263.5 Td
+(# 3. Start the Express + Vite + WebSocket server on port 3000) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+62. 250. Td
+(npm run dev) Tj
+ET
+0.04 0.11 0.19 rg
+53. 221.5 m
+559. 221.5 l
+561.7614237491540052 221.5 564. 219.2614237491540052 564. 216.5 c
+564. 202.5 l
+564. 199.7385762508459948 561.2385762508459948 197.5 559. 197.5 c
+53. 197.5 l
+50.2385762508460303 197.5 48. 200.2614237491540052 48. 202.5 c
+48. 216.5 l
+48. 219.2614237491540052 50.7614237491539697 221.5 53. 221.5 c
+h
+f
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+1. g
+58. 206. Td
+(Command) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+1. g
+188. 206. Td
+(Action) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+1. g
+398. 206. Td
+(When to Use) Tj
+ET
+0.97 0.98 1. rg
+48. 197.5 516. -24. re
+f
+0.89 0.91 0.94 RG
+0.5 w
+48. 173.5 m
+564. 173.5 l
+S
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+58. 182. Td
+(npm run dev) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+188. 182. Td
+(Starts tsx server.ts on port 3000) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+398. 182. Td
+(Local development & preview) Tj
+ET
+0.89 0.91 0.94 RG
+0.5 w
+48. 149.5 m
+564. 149.5 l
+S
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+58. 158. Td
+(npm run lint) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+188. 158. Td
+(Runs TypeScript check \(tsc --noEmit\)) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+398. 158. Td
+(Verify types before commit) Tj
+ET
+0.97 0.98 1. rg
+48. 149.5 516. -24. re
+f
+0.89 0.91 0.94 RG
+0.5 w
+48. 125.5 m
+564. 125.5 l
+S
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+58. 134. Td
+(npm run build) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+188. 134. Td
+(Compiles frontend bundle to dist/) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+398. 134. Td
+(Prepare production assets) Tj
+ET
+0.89 0.91 0.94 RG
+0.5 w
+48. 101.5 m
+564. 101.5 l
+S
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+58. 110. Td
+(npm start) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+188. 110. Td
+(Runs node server.ts serving dist/) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+398. 110. Td
+(Production deployment) Tj
+ET
+0.89 0.91 0.94 RG
+0.5 w
+48. 40. m
+564. 40. l
+S
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.275 0.271 0.329 rg
+48. 25. Td
+(Studio Pulse · Setup & Operations Guide) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.275 0.271 0.329 rg
+520.82000000000005 25. Td
+(Page 1 of 3) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612. 792.]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 9256
+>>
+stream
+0.5 w
+0.89 0.91 0.94 RG
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.275 0.282 0.831 rg
+48. 736. Td
+(03. ENVIRONMENT & GEMINI KEYS) Tj
+ET
+BT
+/F2 15 Tf
+17.25 TL
+0.043 0.11 0.188 rg
+48. 720. Td
+(Configuring Secrets & Model Access) Tj
+ET
+0.89 0.91 0.94 RG
+0.75 w
+48. 712. m
+564. 712. l
+S
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.275 0.271 0.329 rg
+48. 696. Td
+(Studio Pulse reads GEMINI_API_KEY and APP_URL from environment variables on the server. In Google AI) Tj
+T* (Studio, configure keys through the Settings > Secrets panel rather than hardcoding secrets into source files.) Tj
+ET
+0.94 0.96 1. rg
+0.89 0.91 0.94 RG
+0.75 w
+56. 657. m
+556. 657. l
+560.4182779986463174 657. 564. 653.4182779986463174 564. 649. c
+564. 587. l
+564. 582.5817220013536826 559.5817220013536826 579. 556. 579. c
+56. 579. l
+51.5817220013536542 579. 48. 583.4182779986463174 48. 587. c
+48. 649. l
+48. 653.4182779986463174 52.4182779986463458 657. 56. 657. c
+h
+B
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+62. 636. Td
+(# .env configuration) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+62. 622.5 Td
+(GEMINI_API_KEY="YOUR_GEMINI_API_KEY") Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+62. 609. Td
+(APP_URL="http://localhost:3000") Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+62. 595.5 Td
+(PORT=3000) Tj
+ET
+0.04 0.11 0.19 rg
+53. 567. m
+559. 567. l
+561.7614237491540052 567. 564. 564.7614237491540052 564. 562. c
+564. 548. l
+564. 545.2385762508459948 561.2385762508459948 543. 559. 543. c
+53. 543. l
+50.2385762508460303 543. 48. 545.7614237491540052 48. 548. c
+48. 562. l
+48. 564.7614237491540052 50.7614237491539697 567. 53. 567. c
+h
+f
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+1. g
+58. 551.5 Td
+(Model ID) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+1. g
+198. 551.5 Td
+(Endpoint) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+1. g
+303. 551.5 Td
+(Intended Workload & Tier) Tj
+ET
+0.97 0.98 1. rg
+48. 543. 516. -24. re
+f
+0.89 0.91 0.94 RG
+0.5 w
+48. 519. m
+564. 519. l
+S
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+58. 527.5 Td
+(gemini-4-hydrogen) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+198. 527.5 Td
+(POST /api/chat) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+303. 527.5 Td
+(General strategy & default chat \(Standard key\)) Tj
+ET
+0.89 0.91 0.94 RG
+0.5 w
+48. 495. m
+564. 495. l
+S
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+58. 503.5 Td
+(gemini-3.1-flash-lite) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+198. 503.5 Td
+(POST /api/chat) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+303. 503.5 Td
+(Fast hooks, captions & quick drafts \(Standard key\)) Tj
+ET
+0.97 0.98 1. rg
+48. 495. 516. -24. re
+f
+0.89 0.91 0.94 RG
+0.5 w
+48. 471. m
+564. 471. l
+S
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+58. 479.5 Td
+(gemini-4-carbon) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+198. 479.5 Td
+(POST /api/chat) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+303. 479.5 Td
+(Deep analytical reasoning \(Requires billing key\)) Tj
+ET
+0.89 0.91 0.94 RG
+0.5 w
+48. 447. m
+564. 447. l
+S
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+58. 455.5 Td
+(gemini-4-neon) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+198. 455.5 Td
+(POST /api/chat) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+303. 455.5 Td
+(Complex interactive campaigns \(Requires billing key\)) Tj
+ET
+0.97 0.98 1. rg
+48. 447. 516. -24. re
+f
+0.89 0.91 0.94 RG
+0.5 w
+48. 423. m
+564. 423. l
+S
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+58. 431.5 Td
+(gemini-3.8-live) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+198. 431.5 Td
+(WS /api/live) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.043 0.11 0.188 rg
+303. 431.5 Td
+(Real-time 16kHz/24kHz voice sessions \(Standard key\)) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.275 0.282 0.831 rg
+48. 401. Td
+(04. WORKSPACE FEATURES) Tj
+ET
+BT
+/F2 15 Tf
+17.25 TL
+0.043 0.11 0.188 rg
+48. 385. Td
+(Configuring Growth Pulse, Queue, Inbox & Copilot) Tj
+ET
+0.89 0.91 0.94 RG
+0.75 w
+48. 377. m
+564. 377. l
+S
+0.27 0.28 0.83 rg
+54. 364.5 m
+54. 365.6045694996615794 53.1045694996615865 366.5 52. 366.5 c
+50.8954305003384135 366.5 50. 365.6045694996615794 50. 364.5 c
+50. 363.3954305003384206 50.8954305003384135 362.5 52. 362.5 c
+53.1045694996615865 362.5 54. 363.3954305003384206 54. 364.5 c
+f
+BT
+/F2 10 Tf
+11.5 TL
+0.043 0.11 0.188 rg
+62. 361. Td
+(Dashboard & Velocity Chart: ) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.275 0.271 0.329 rg
+199. 361. Td
+(Filter all KPI cards, charts, and active campaigns by channel \(Instagram, TikTok,) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.275 0.271 0.329 rg
+62. 347. Td
+(LinkedIn, X\) and time window \(7, 30, or 90 days\).) Tj
+ET
+0.27 0.28 0.83 rg
+54. 332.5 m
+54. 333.6045694996615794 53.1045694996615865 334.5 52. 334.5 c
+50.8954305003384135 334.5 50. 333.6045694996615794 50. 332.5 c
+50. 331.3954305003384206 50.8954305003384135 330.5 52. 330.5 c
+53.1045694996615865 330.5 54. 331.3954305003384206 54. 332.5 c
+f
+BT
+/F2 10 Tf
+11.5 TL
+0.043 0.11 0.188 rg
+62. 329. Td
+(Growth Pulse Alerts: ) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.275 0.271 0.329 rg
+163.4000000000000057 329. Td
+(Monitors published posts against preferences.growthPulseThreshold \(default 7.5%\). Adjust) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.275 0.271 0.329 rg
+62. 315. Td
+(the threshold in Channels & Settings or via the Dashboard +/- steppers to trigger floating alert toasts.) Tj
+ET
+0.27 0.28 0.83 rg
+54. 300.5 m
+54. 301.6045694996615794 53.1045694996615865 302.5 52. 302.5 c
+50.8954305003384135 302.5 50. 301.6045694996615794 50. 300.5 c
+50. 299.3954305003384206 50.8954305003384135 298.5 52. 298.5 c
+53.1045694996615865 298.5 54. 299.3954305003384206 54. 300.5 c
+f
+BT
+/F2 10 Tf
+11.5 TL
+0.043 0.11 0.188 rg
+62. 297. Td
+(Content Queue & Composer: ) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.275 0.271 0.329 rg
+201.6000000000000227 297. Td
+(Switch between Stream and Week Grid views, compose or edit multi-channel) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.275 0.271 0.329 rg
+62. 283. Td
+(posts with live artwork previews, and publish immediately to record metrics.) Tj
+ET
+0.27 0.28 0.83 rg
+54. 268.5 m
+54. 269.6045694996615794 53.1045694996615865 270.5 52. 270.5 c
+50.8954305003384135 270.5 50. 269.6045694996615794 50. 268.5 c
+50. 267.3954305003384206 50.8954305003384135 266.5 52. 266.5 c
+53.1045694996615865 266.5 54. 267.3954305003384206 54. 268.5 c
+f
+BT
+/F2 10 Tf
+11.5 TL
+0.043 0.11 0.188 rg
+62. 265. Td
+(Unified Inbox: ) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.275 0.271 0.329 rg
+131.3000000000000114 265. Td
+(Filter DMs, comments, and press inquiries by channel or unread state, assign strategists, apply) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.275 0.271 0.329 rg
+62. 251. Td
+(quick templates, and send replies.) Tj
+ET
+0.27 0.28 0.83 rg
+54. 236.5 m
+54. 237.6045694996615794 53.1045694996615865 238.5 52. 238.5 c
+50.8954305003384135 238.5 50. 237.6045694996615794 50. 236.5 c
+50. 235.3954305003384206 50.8954305003384135 234.5 52. 234.5 c
+53.1045694996615865 234.5 54. 235.3954305003384206 54. 236.5 c
+f
+BT
+/F2 10 Tf
+11.5 TL
+0.043 0.11 0.188 rg
+62. 233. Td
+(Analytics & CSV Export: ) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.275 0.271 0.329 rg
+179.8000000000000114 233. Td
+(Inspect peak engagement hour heatmaps, format efficiency bars, and sortable) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.275 0.271 0.329 rg
+62. 219. Td
+(leaderboards, or click Export CSV for spreadsheet reporting.) Tj
+ET
+0.27 0.28 0.83 rg
+54. 204.5 m
+54. 205.6045694996615794 53.1045694996615865 206.5 52. 206.5 c
+50.8954305003384135 206.5 50. 205.6045694996615794 50. 204.5 c
+50. 203.3954305003384206 50.8954305003384135 202.5 52. 202.5 c
+53.1045694996615865 202.5 54. 203.3954305003384206 54. 204.5 c
+f
+BT
+/F2 10 Tf
+11.5 TL
+0.043 0.11 0.188 rg
+62. 201. Td
+(Studio Copilot & Live Voice: ) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.275 0.271 0.329 rg
+196.6000000000000227 201. Td
+(Switch between Multi-Turn Chat \(with workspace data grounding and 4 strategist) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.275 0.271 0.329 rg
+62. 187. Td
+(personas\) and Live Voice \(gemini-3.8-live\) with 5 studio voices and live dual-sided transcription.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.275 0.282 0.831 rg
+48. 161. Td
+(05. TROUBLESHOOTING) Tj
+ET
+BT
+/F2 15 Tf
+17.25 TL
+0.043 0.11 0.188 rg
+48. 145. Td
+(Common Setup Issues & Resolutions) Tj
+ET
+0.89 0.91 0.94 RG
+0.75 w
+48. 137. m
+564. 137. l
+S
+0.27 0.28 0.83 rg
+54. 124.5 m
+54. 125.6045694996615794 53.1045694996615865 126.5 52. 126.5 c
+50.8954305003384135 126.5 50. 125.6045694996615794 50. 124.5 c
+50. 123.3954305003384206 50.8954305003384135 122.5 52. 122.5 c
+53.1045694996615865 122.5 54. 123.3954305003384206 54. 124.5 c
+f
+BT
+/F2 10 Tf
+11.5 TL
+0.043 0.11 0.188 rg
+62. 121. Td
+(403 Permission Denied / Invalid Key: ) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.275 0.271 0.329 rg
+238.0999999999999943 121. Td
+(Confirm GEMINI_API_KEY is set in your .env file or AI Studio Settings >) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.275 0.271 0.329 rg
+62. 107. Td
+(Secrets panel, then restart the server.) Tj
+ET
+0.89 0.91 0.94 RG
+0.5 w
+48. 40. m
+564. 40. l
+S
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.275 0.271 0.329 rg
+48. 25. Td
+(Studio Pulse · Setup & Operations Guide) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.275 0.271 0.329 rg
+520.82000000000005 25. Td
+(Page 2 of 3) Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612. 792.]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 2293
+>>
+stream
+0.75 w
+0.89 0.91 0.94 RG
+0.27 0.28 0.83 rg
+54. 747.5 m
+54. 748.6045694996615794 53.1045694996615865 749.5 52. 749.5 c
+50.8954305003384135 749.5 50. 748.6045694996615794 50. 747.5 c
+50. 746.3954305003384206 50.8954305003384135 745.5 52. 745.5 c
+53.1045694996615865 745.5 54. 746.3954305003384206 54. 747.5 c
+f
+BT
+/F2 10 Tf
+11.5 TL
+0.043 0.11 0.188 rg
+62. 744. Td
+(429 Quota or Paid Model Error: ) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.275 0.271 0.329 rg
+211.5999999999999943 744. Td
+(gemini-4-carbon and gemini-4-neon require a billing-enabled API key in Settings) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.275 0.271 0.329 rg
+62. 730. Td
+(> Secrets. Switch to gemini-4-hydrogen or gemini-3.1-flash-lite for standard keys.) Tj
+ET
+0.27 0.28 0.83 rg
+54. 715.5 m
+54. 716.6045694996615794 53.1045694996615865 717.5 52. 717.5 c
+50.8954305003384135 717.5 50. 716.6045694996615794 50. 715.5 c
+50. 714.3954305003384206 50.8954305003384135 713.5 52. 713.5 c
+53.1045694996615865 713.5 54. 714.3954305003384206 54. 715.5 c
+f
+BT
+/F2 10 Tf
+11.5 TL
+0.043 0.11 0.188 rg
+62. 712. Td
+(Live Voice Microphone Blocked: ) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.275 0.271 0.329 rg
+216.4000000000000057 712. Td
+(Allow browser microphone permissions for localhost or your HTTPS Cloud Run) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.275 0.271 0.329 rg
+62. 698. Td
+(URL. Live Voice streams 16kHz PCM audio upstream and plays 24kHz PCM responses.) Tj
+ET
+0.27 0.28 0.83 rg
+54. 683.5 m
+54. 684.6045694996615794 53.1045694996615865 685.5 52. 685.5 c
+50.8954305003384135 685.5 50. 684.6045694996615794 50. 683.5 c
+50. 682.3954305003384206 50.8954305003384135 681.5 52. 681.5 c
+53.1045694996615865 681.5 54. 682.3954305003384206 54. 683.5 c
+f
+BT
+/F2 10 Tf
+11.5 TL
+0.043 0.11 0.188 rg
+62. 680. Td
+(Resetting Local Workspace State: ) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.275 0.271 0.329 rg
+224.2000000000000455 680. Td
+(Open Channels & Settings and click Restore Initial Studio Data to reset) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.275 0.271 0.329 rg
+62. 666. Td
+(posts, threads, chat history, and Growth Pulse defaults.) Tj
+ET
+0.89 0.91 0.94 RG
+0.5 w
+48. 40. m
+564. 40. l
+S
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.275 0.271 0.329 rg
+48. 25. Td
+(Studio Pulse · Setup & Operations Guide) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.275 0.271 0.329 rg
+520.82000000000005 25. Td
+(Page 3 of 3) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R ]
+/Count 3
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+21 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+22 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 9 0 R
+/F2 10 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+/F7 15 0 R
+/F8 16 0 R
+/F9 17 0 R
+/F10 18 0 R
+/F11 19 0 R
+/F12 20 0 R
+/F13 21 0 R
+/F14 22 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+23 0 obj
+<<
+/Producer (jsPDF 4.2.1)
+/CreationDate (D:20261123170507-00'00')
+>>
+endobj
+24 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 25
+0000000000 65535 f 
+0000019265 00000 n 
+0000021098 00000 n 
+0000000015 00000 n 
+0000000120 00000 n 
+0000007402 00000 n 
+0000007507 00000 n 
+0000016815 00000 n 
+0000016920 00000 n 
+0000019334 00000 n 
+0000019459 00000 n 
+0000019590 00000 n 
+0000019724 00000 n 
+0000019862 00000 n 
+0000019986 00000 n 
+0000020115 00000 n 
+0000020247 00000 n 
+0000020383 00000 n 
+0000020511 00000 n 
+0000020638 00000 n 
+0000020767 00000 n 
+0000020900 00000 n 
+0000021002 00000 n 
+0000021350 00000 n 
+0000021436 00000 n 
+trailer
+<<
+/Size 25
+/Root 24 0 R
+/Info 23 0 R
+/ID [ <BB18B2F6008281488EA3A381F5FAB51E> <BB18B2F6008281488EA3A381F5FAB51E> ]
+>>
+startxref
+21540
+%%EOF
