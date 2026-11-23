@@ -31,7 +31,7 @@ const STATUS_TABS: { id: PostStatus | 'all'; label: string }[] = [
   { id: 'published', label: 'Published' },
 ];
 
-const CHANNELS: (ChannelId | 'all')[] = ['all', 'instagram', 'tiktok', 'linkedin', 'x'];
+const CHANNELS: (ChannelId | 'all')[] = ['all', 'instagram', 'youtube', 'facebook', 'linkedin', 'x'];
 
 export const QueueScreen: React.FC<QueueScreenProps> = ({
   posts,

@@ -47,7 +47,7 @@ const TIME_WINDOWS: { id: TimeWindow; label: string }[] = [
   { id: '90d', label: '90 Days' },
 ];
 
-const CHANNELS: (ChannelId | 'all')[] = ['all', 'instagram', 'tiktok', 'linkedin', 'x'];
+const CHANNELS: (ChannelId | 'all')[] = ['all', 'instagram', 'youtube', 'facebook', 'linkedin', 'x'];
 
 function formatMetricNumber(value: number): string {
   if (value >= 1_000_000) return `${(value / 1_000_000).toFixed(2)}M`;
@@ -76,7 +76,7 @@ export const DashboardScreen: React.FC<DashboardScreenProps> = ({
   const kpis = useMemo(() => {
     const totalReach = series.reduce((sum, pt) => {
       if (channelFilter === 'all') {
-        return sum + pt.instagram + pt.tiktok + pt.linkedin + pt.x;
+        return sum + pt.instagram + pt.youtube + pt.facebook + pt.linkedin + pt.x;
       }
       return sum + pt[channelFilter];
     }, 0);
@@ -97,18 +97,20 @@ export const DashboardScreen: React.FC<DashboardScreenProps> = ({
 
     const baseClicks =
       channelFilter === 'all'
-        ? 14820
-        : channelFilter === 'tiktok'
+        ? 18140
+        : channelFilter === 'youtube'
         ? 5940
         : channelFilter === 'instagram'
         ? 4680
+        : channelFilter === 'facebook'
+        ? 3320
         : channelFilter === 'linkedin'
         ? 2610
         : 1590;
     const linkClicks = Math.round(baseClicks * windowScale);
 
     const deltaReach = timeWindow === '7d' ? '+18.4%' : timeWindow === '30d' ? '+24.1%' : '+31.6%';
-    const deltaEng = channelFilter === 'tiktok' ? '+1.4 pt' : '+0.8 pt';
+    const deltaEng = channelFilter === 'youtube' ? '+1.4 pt' : '+0.8 pt';
     const deltaGrowth = timeWindow === '7d' ? '+12.9%' : '+19.2%';
     const deltaClicks = timeWindow === '90d' ? '+28.3%' : '+15.7%';
 

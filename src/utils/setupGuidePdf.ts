@@ -276,7 +276,7 @@ export function createSetupGuidePdf(): jsPDF {
   addSectionHeader('04. Workspace Features', 'Configuring Growth Pulse, Queue, Inbox & Copilot');
   addBullet(
     'Dashboard & Velocity Chart',
-    'Filter all KPI cards, charts, and active campaigns by channel (Instagram, TikTok, LinkedIn, X) and time window (7, 30, or 90 days).'
+    'Filter all KPI cards, charts, and active campaigns by channel (Instagram, YouTube, Facebook, LinkedIn, X) and time window (7, 30, or 90 days).'
   );
   addBullet(
     'Growth Pulse Alerts',

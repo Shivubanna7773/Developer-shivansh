@@ -97,7 +97,7 @@ export const AnalyticsScreen: React.FC<AnalyticsScreenProps> = ({
       </div>
 
       {/* Channel Diagnostic Cards */}
-      <section className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">
+      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
         {accounts.map((acc) => {
           const meta = CHANNEL_META[acc.id as ChannelId];
           const pct = Math.round((acc.followers / maxFollowers) * 100);

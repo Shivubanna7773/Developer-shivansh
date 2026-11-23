@@ -78,7 +78,7 @@ const VOICE_OPTIONS: LiveVoiceName[] = ['Zephyr', 'Kore', 'Puck', 'Charon', 'Fen
 
 const STARTER_PROMPTS = [
   'Audit our current channel mix and suggest where to focus next week.',
-  'Draft 3 punchy TikTok hooks for the Winter Capsule Lookbook Teaser.',
+  'Draft 3 punchy YouTube Shorts hooks for the Winter Capsule Lookbook Teaser.',
   'Recommend a response strategy for our unread Vogue Living & creator DMs.',
   'Outline a 5-day multi-channel launch cadence for Material Transparency.',
 ];

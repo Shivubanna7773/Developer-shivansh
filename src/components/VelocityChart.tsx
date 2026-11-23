@@ -7,7 +7,7 @@ interface VelocityChartProps {
   activeChannel: ChannelId | 'all';
 }
 
-const CHANNELS: ChannelId[] = ['tiktok', 'instagram', 'linkedin', 'x'];
+const CHANNELS: ChannelId[] = ['youtube', 'instagram', 'facebook', 'linkedin', 'x'];
 
 function formatCompact(n: number): string {
   if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
@@ -19,7 +19,8 @@ export const VelocityChart: React.FC<VelocityChartProps> = ({ data, activeChanne
   const [hoverIdx, setHoverIdx] = useState<number | null>(null);
   const [visibleChannels, setVisibleChannels] = useState<Record<ChannelId, boolean>>({
     instagram: true,
-    tiktok: true,
+    youtube: true,
+    facebook: true,
     linkedin: true,
     x: true,
   });

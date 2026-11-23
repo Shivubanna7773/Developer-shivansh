@@ -23,7 +23,7 @@ export interface ChatTurn {
   timestamp: string;
 }
 
-export type ChannelId = 'instagram' | 'tiktok' | 'linkedin' | 'x';
+export type ChannelId = 'instagram' | 'youtube' | 'facebook' | 'linkedin' | 'x';
 
 export type TimeWindow = '7d' | '30d' | '90d';
 
@@ -83,7 +83,8 @@ export interface InboxThread {
 export interface VelocityPoint {
   label: string;
   instagram: number;
-  tiktok: number;
+  youtube: number;
+  facebook: number;
   linkedin: number;
   x: number;
 }

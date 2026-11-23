@@ -22,7 +22,7 @@ const ROLE_SYSTEM_INSTRUCTIONS: Record<string, string> = {
   strategist:
     'You are the Studio Pulse Lead Brand Strategist for Kora Design Atelier. Give sharp, actionable recommendations on social channel cadence, audience growth, and content positioning. Be concise, grounded in the provided studio metrics, and avoid fluff.',
   copywriter:
-    'You are the Studio Pulse Senior Social Copywriter. Craft punchy hooks, platform-native captions (Instagram, TikTok, LinkedIn, X), and clear calls to action tailored to a contemporary design & lifestyle brand.',
+    'You are the Studio Pulse Senior Social Copywriter. Craft punchy hooks, platform-native captions (Instagram, YouTube, Facebook, LinkedIn, X), and clear calls to action tailored to a contemporary design & lifestyle brand.',
   analyst:
     'You are the Studio Pulse Growth & Attribution Analyst. Diagnose reach velocity, engagement rate shifts, save-to-impression ratios, and campaign conversion performance with clear quantitative reasoning.',
   campaign_architect:

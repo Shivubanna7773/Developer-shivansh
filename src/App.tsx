@@ -50,10 +50,30 @@ function loadStoredState(): StoredState {
     if (raw) {
       const parsed = JSON.parse(raw) as Partial<StoredState>;
       if (parsed.posts && parsed.threads && parsed.accounts && parsed.preferences) {
+        const mapLegacyChannel = (ch: string): ChannelId =>
+          ch === 'tiktok' ? 'youtube' : (ch as ChannelId);
+
+        const migratedPosts = parsed.posts.map((p) => ({
+          ...p,
+          channels: Array.from(new Set(p.channels.map((ch) => mapLegacyChannel(ch as string)))),
+        }));
+
+        const migratedThreads = parsed.threads.map((t) => ({
+          ...t,
+          channel: mapLegacyChannel(t.channel as string),
+        }));
+
+        const filteredAccounts = parsed.accounts.filter((a) => (a.id as string) !== 'tiktok');
+        const presentIds = new Set(filteredAccounts.map((a) => a.id));
+        const mergedAccounts = [
+          ...filteredAccounts,
+          ...INITIAL_ACCOUNTS.filter((def) => !presentIds.has(def.id)),
+        ];
+
         return {
-          posts: parsed.posts,
-          threads: parsed.threads,
-          accounts: parsed.accounts,
+          posts: migratedPosts,
+          threads: migratedThreads,
+          accounts: mergedAccounts,
           preferences: { ...INITIAL_PREFERENCES, ...parsed.preferences },
           chatHistory: Array.isArray(parsed.chatHistory) ? parsed.chatHistory : [],
         };

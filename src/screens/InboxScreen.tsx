@@ -13,7 +13,7 @@ interface InboxScreenProps {
   onAssignThread: (threadId: string, assignee: string) => void;
 }
 
-const CHANNELS: (ChannelId | 'all')[] = ['all', 'instagram', 'tiktok', 'linkedin', 'x'];
+const CHANNELS: (ChannelId | 'all')[] = ['all', 'instagram', 'youtube', 'facebook', 'linkedin', 'x'];
 
 const QUICK_REPLIES = [
   'Thanks for reaching out — sending the press kit and sample sheet over now.',

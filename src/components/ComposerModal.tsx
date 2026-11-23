@@ -12,7 +12,7 @@ interface ComposerModalProps {
   onSave: (post: Omit<ScheduledPost, 'id'>, existingId?: string) => void;
 }
 
-const ALL_CHANNELS: ChannelId[] = ['instagram', 'tiktok', 'linkedin', 'x'];
+const ALL_CHANNELS: ChannelId[] = ['instagram', 'youtube', 'facebook', 'linkedin', 'x'];
 const FORMATS: PostFormat[] = ['Reel', 'Carousel', 'Short Video', 'Thread', 'Editorial Note'];
 const ARTWORKS: { id: ArtworkVariant; label: string }[] = [
   { id: 'atelier-drop', label: 'Atelier Drop' },
@@ -55,7 +55,7 @@ export const ComposerModal: React.FC<ComposerModalProps> = ({
     } else {
       setTitle('');
       setCaption('');
-      setChannels(['instagram', 'tiktok']);
+      setChannels(['instagram', 'youtube']);
       setFormat('Reel');
       setCampaign(CAMPAIGNS[0]);
       setScheduledDate('2026-11-24');
